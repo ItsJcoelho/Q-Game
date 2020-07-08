@@ -9,7 +9,7 @@
 
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/qgame"
         android:layout_width="180dp"
         android:layout_height="134dp"
         android:layout_gravity="start"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.884" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/googlesearch"
         android:layout_width="180dp"
         android:layout_height="134dp"
         android:layout_gravity="start"
@@ -69,32 +69,24 @@
         android:id="@+id/imageView3"
         android:layout_width="358dp"
         android:layout_height="215dp"
+        android:layout_marginTop="112dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/input_style"
-        tools:layout_editor_absoluteY="115dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="110dp"
-        android:layout_height="81dp"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="16dp"
-        android:background="@drawable/round_image_user"
-        android:clipToOutline="true"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/input_style" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="409dp"
         android:layout_height="76dp"
         android:background="@drawable/button_menu"
+        app:itemIconTint="#fff"
+        app:itemTextColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:itemTextColor="#fff"
-        app:itemIconTint="#fff"
-        app:menu="@menu/my_menu"/>
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/my_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

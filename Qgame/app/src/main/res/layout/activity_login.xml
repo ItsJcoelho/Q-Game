@@ -15,8 +15,9 @@
     <TextView
         android:layout_width="249dp"
         android:layout_height="207dp"
-        android:fontFamily="@font/sportypo"
+        android:layout_marginTop="156dp"
 
+        android:fontFamily="@font/sportypo"
         android:gravity="center_horizontal"
         android:text="QG"
         android:textAlignment="center"
@@ -24,7 +25,7 @@
         android:textSize="100sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="180dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/username"
