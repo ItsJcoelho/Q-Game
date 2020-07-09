@@ -127,7 +127,7 @@
         app:layout_constraintVertical_bias="0.77" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/returnhome"
         android:layout_width="213dp"
         android:layout_height="44dp"
         android:layout_gravity="start"
@@ -136,10 +136,10 @@
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="64dp"
         android:background="@drawable/button_auth"
-        android:enabled="false"
+        android:enabled="true"
         android:textSize="15dp"
         android:fontFamily="@font/inriasans_bold"
-        android:text="Jogar"
+        android:text="Voltar"
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,22 +147,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password"
         app:layout_constraintVertical_bias="0.884" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="180dp"
-        android:layout_height="28dp"
-        android:layout_gravity="start"
-        android:background="@drawable/button_link"
-        android:enabled="false"
-        android:fontFamily="@font/inriasans_bold"
-        android:text="voltar"
-        android:textColor="@color/colorWhite"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
+
 
     <ImageView
         android:id="@+id/imageView2"

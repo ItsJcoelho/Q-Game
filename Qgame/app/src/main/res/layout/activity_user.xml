@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2D42">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/unnamed"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="52dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="191dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_money"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="21dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_money"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="52dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="191dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_diamante"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="84dp"
+        android:layout_height="41dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/button_link"
+        android:enabled="false"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="1500"
+        android:textColor="#FFCC33"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="84dp"
+        android:layout_height="41dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/button_link"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="1500"
+        android:textColor="#50E6FF"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="143dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:gravity="center"
+        android:text="PERGUNTAS"
+        android:textAlignment="center"
+        android:textColor="#F7F1F1"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="428dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="384dp"
+        android:background="@color/colorHighRed"
+        android:fontFamily="@font/inriasans_bold"
+        android:gravity="center"
+        android:text="Ultimo Jogo"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pointsPre"
+        android:layout_width="48dp"
+        android:layout_height="27dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/button_link"
+        android:enabled="false"
+        android:fontFamily="@font/inriasans_bold"
+        android:text="1500"
+        android:textColor="#FFCC33"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/lastScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/inriasans_bold"
+        android:gravity="center"
+        android:text="PERGUNTAS"
+        android:textAlignment="center"
+        android:textColor="#F7F1F1"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <ImageView
+        android:id="@+id/trophy"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/ic_cup" />
+
+    <Button
+        android:id="@+id/badges"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/button_auth"
+        android:enabled="true"
+        android:text="Ver Badges"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+
+        android:id="@+id/user"
+        android:layout_width="148dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="288dp"
+        android:background="@color/colorHighRed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_do_utilizador" />
+
+    <ImageButton
+
+        android:id="@+id/tools"
+        android:layout_width="148dp"
+        android:layout_height="65dp"
+        android:background="@color/colorHighRed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_engrenagem" />
+
+    <ImageButton
+
+        android:id="@+id/home"
+        android:layout_width="148dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:background="@color/colorHighRed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home_run" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

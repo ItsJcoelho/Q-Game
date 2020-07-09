@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "220159658404",
+    "firebase_url": "https://qgame-2e75d.firebaseio.com",
+    "project_id": "qgame-2e75d",
+    "storage_bucket": "qgame-2e75d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220159658404:android:db291d1142a59b6c259931",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220159658404-me538880i1roa5nhkmu9ehnhjurcgd9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "6ff0b5a0205fff8835e04967545bbad54c687b3e"
+          }
+        },
+        {
+          "client_id": "220159658404-qhvcv58r2kv16vacfeo4v7218gve7m4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmiVUoDOvfLjhpozTjKnsiOZL9_qdX404"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220159658404-qhvcv58r2kv16vacfeo4v7218gve7m4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/username"
         android:layout_width="350dp"
         android:layout_height="63dp"
         android:layout_marginStart="40dp"
@@ -42,8 +42,10 @@
         android:layout_marginTop="224dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_do_utilizador_one"
         android:background="@drawable/input_style"
-        android:hint="@string/prompt_email"
+        android:hint="  Username"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +59,9 @@
         android:layout_height="63dp"
         android:layout_marginTop="304dp"
         android:background="@drawable/input_style"
-        android:hint="@string/prompt_password"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_trava"
+        android:hint="  Password"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
@@ -68,7 +72,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/number"
+        android:id="@+id/email"
         android:layout_width="350dp"
         android:layout_height="63dp"
         android:layout_marginStart="40dp"
@@ -76,8 +80,10 @@
         android:layout_marginTop="468dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_enviar"
         android:background="@drawable/input_style"
-        android:hint="@string/prompt_email"
+        android:hint="  Email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,7 +97,9 @@
         android:layout_height="63dp"
         android:layout_marginTop="384dp"
         android:background="@drawable/input_style"
-        android:hint="@string/prompt_password"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_trava"
+        android:hint="  Confirmar Password"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
@@ -102,7 +110,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/sign"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="start"
@@ -111,10 +119,9 @@
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="64dp"
         android:background="@drawable/button_auth"
-        android:enabled="false"
-        android:text="Login"
-        android:textSize="20dp"
+        android:text="Sign up"
         android:textColor="#fff"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -123,18 +130,17 @@
 
 
     <Button
-        android:id="@+id/sign"
+        android:id="@+id/login"
         android:layout_width="244dp"
         android:layout_height="32dp"
         android:layout_gravity="start"
-        android:layout_marginTop="620dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/button_link"
         android:enabled="false"
         android:text="Or enter your account"
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/sign" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

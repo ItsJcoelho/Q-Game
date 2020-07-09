@@ -12,7 +12,7 @@
         android:layout_width="429dp"
         android:layout_height="69dp"
         android:layout_marginTop="132dp"
-        android:background="#89D4F9"
+        android:background="#DD910F"
         android:fontFamily="@font/inriasans_bold"
         android:gravity="center"
         android:text="Q-QUIZ"
