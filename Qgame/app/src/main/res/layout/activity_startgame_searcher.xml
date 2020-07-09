@@ -15,7 +15,7 @@
         android:background="#DD910F"
         android:fontFamily="@font/inriasans_bold"
         android:gravity="center"
-        android:text="Q-QUIZ"
+        android:text="Google Searcher"
         android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="25dp"

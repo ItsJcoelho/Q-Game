@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                                 if(task.isSuccessful()) {
                                     for (QueryDocumentSnapshot document : task.getResult()) {
 
-                                        if (usernametext.equals(document.getData().get("username"))){
+                                        if (usernametext.equals(document.getData().get("username")) && passwordtext.equals(document.getData().get("password"))){
                                             check = true;
                                             globalClass.setUserLogged(document.getData().get("email").toString());
                                             globalClass.setUserName(document.getData().get("username").toString());
@@ -78,9 +78,7 @@ public class LoginActivity extends AppCompatActivity {
                                             Log.d(TAG, "credits: " + globalClass.getUserCredits());
                                             Log.d(TAG, "ID: " + globalClass.getUserID());
                                         }
-                                        if (passwordtext.equals(document.getData().get("password"))){
-                                            check = true;
-                                        }
+
 
                                 }
                                 }

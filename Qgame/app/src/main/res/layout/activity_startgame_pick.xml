@@ -15,7 +15,7 @@
         android:background="#AC1AE1"
         android:fontFamily="@font/inriasans_bold"
         android:gravity="center"
-        android:text="Q-QUIZ"
+        android:text="PickPoints"
         android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="25dp"
